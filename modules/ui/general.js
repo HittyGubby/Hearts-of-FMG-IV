@@ -527,10 +527,10 @@ function showInfo() {
   const Deorum = link("https://deorum.vercel.app", "Deorum");
 
   const QuickStart = link(
-    "https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Quick-Start-Tutorial",
+    "https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Quick-Start-Tutorial",
     "Quick start tutorial"
   );
-  const QAA = link("https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Q&A", "Q&A page");
+  const QAA = link("https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Q&A", "Q&A page");
   const VideoTutorial = link("https://youtube.com/playlist?list=PLtgiuDC8iVR2gIG8zMTRn7T_L0arl9h1C", "Video tutorial");
 
   alertMessage.innerHTML = /* html */ `<b>Fantasy Map Generator</b> (FMG) is a free open-source application. It means that you own all created maps and can use them as
@@ -547,10 +547,10 @@ function showInfo() {
     </p>
 
     <ul style="columns:2">
-      <li>${link("https://github.com/Azgaar/Fantasy-Map-Generator", "GitHub repository")}</li>
-      <li>${link("https://github.com/Azgaar/Fantasy-Map-Generator/blob/master/LICENSE", "License")}</li>
-      <li>${link("https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Changelog", "Changelog")}</li>
-      <li>${link("https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Hotkeys", "Hotkeys")}</li>
+      <li>${link("https://github.com/HittyGubby/Hearts-of-FMG-IV", "GitHub repository")}</li>
+      <li>${link("https://github.com/HittyGubby/Hearts-of-FMG-IV/blob/master/LICENSE", "License")}</li>
+      <li>${link("https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Changelog", "Changelog")}</li>
+      <li>${link("https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Hotkeys", "Hotkeys")}</li>
       <li>${link("https://trello.com/b/7x832DG4/fantasy-map-generator", "Devboard")}</li>
       <li><a href="mailto:azgaar.fmg@yandex.by" target="_blank">Contact Azgaar</a></li>
     </ul>

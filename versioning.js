@@ -27,10 +27,8 @@ if (parseMapVersion(VERSION) !== VERSION) alert("versioning.js: Invalid format o
   }
 
   function showUpdateWindow() {
-    const changelog = "https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Changelog";
-    const reddit = "https://www.reddit.com/r/FantasyMapGenerator";
-    const discord = "https://discordapp.com/invite/X7E84HU";
-    const patreon = "https://www.patreon.com/azgaar";
+    const changelog = "https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Changelog";
+    const github = "https://github.com/HittyGubby/Hearts-of-FMG-IV";
 
     alertMessage.innerHTML = /* html */ `The Fantasy Map Generator is updated up to version <strong>${VERSION}</strong>. This version is compatible with <a href="${changelog}" target="_blank">previous versions</a>, loaded save files will be auto-updated.
       ${storedVersion ? "<span>Click on OK and then reload the page to fetch fresh code.</span>" : ""}
@@ -51,8 +49,7 @@ if (parseMapVersion(VERSION) !== VERSION) alert("versioning.js: Invalid format o
         <li>Ability to render ocean heightmap</li>
       </ul>
 
-      <p>Join our <a href="${discord}" target="_blank">Discord server</a> and <a href="${reddit}" target="_blank">Reddit community</a> to ask questions, share maps, discuss the Generator and Worlbuilding, report bugs and propose new features.</p>
-      <span><i>Thanks for all supporters on <a href="${patreon}" target="_blank">Patreon</a>!</i></span>`;
+      <p>Well, I'm physically in Mainland China, so sponsorship is a bit inaccessible... But you can always check the <a href="${github}" target="_blank">Github Repo</a> ! </span>`;
 
     $("#alert").dialog({
       resizable: false,

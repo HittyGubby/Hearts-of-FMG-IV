@@ -111,7 +111,7 @@ function openURL(url) {
 
 // open project wiki-page
 function wiki(page) {
-  window.open("https://github.com/Azgaar/Fantasy-Map-Generator/wiki/" + page, "_blank");
+  window.open("https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/" + page, "_blank");
 }
 
 // wrap URL into html a element

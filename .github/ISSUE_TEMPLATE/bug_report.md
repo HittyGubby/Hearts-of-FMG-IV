@@ -3,7 +3,7 @@ name: Bug report
 about: Report a problem
 title: ''
 labels: pending review
-assignees: Azgaar
+assignees: HittyGubby
 
 ---
 

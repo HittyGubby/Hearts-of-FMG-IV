@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea
 title: ''
 labels: pending review
-assignees: Azgaar
+assignees: HittyGubby
 
 ---
 

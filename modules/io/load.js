@@ -190,7 +190,7 @@ function showUploadMessage(type, mapData, mapVersion) {
     parseLoadedData(mapData, mapVersion);
     return;
   } else if (type === "ancient") {
-    const archive = link("https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Changelog", "archived version");
+    const archive = link("https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Changelog", "archived version");
     message = `The map version you are trying to load (${mapVersion}) is too old and cannot be updated to the current version.<br>Please keep using an ${archive}`;
     title = "Ancient file";
   } else if (type === "newer") {

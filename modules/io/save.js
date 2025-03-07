@@ -15,7 +15,7 @@ async function saveMap(method) {
   } catch (error) {
     ERROR && console.error(error);
     alertMessage.innerHTML = /* html */ `An error is occured on map saving. If the issue persists, please copy the message below and report it on ${link(
-      "https://github.com/Azgaar/Fantasy-Map-Generator/issues",
+      "https://github.com/HittyGubby/Hearts-of-FMG-IV/issues",
       "GitHub"
     )}. <p id="errorBox">${parseError(error)}</p>`;
 
@@ -40,7 +40,7 @@ async function saveMap(method) {
 function prepareMapData() {
   const date = new Date();
   const dateString = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate();
-  const license = "File can be loaded in azgaar.github.io/Fantasy-Map-Generator";
+  const license = "File can be loaded in HittyGubby.github.io/Hearts-of-FMG-IV";
   const params = [VERSION, license, dateString, seed, graphWidth, graphHeight, mapId].join("|");
   const settings = [
     distanceUnitInput.value,

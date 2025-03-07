@@ -441,7 +441,7 @@ function editEmblem(type, id, el) {
           "</div>"
         : "";
 
-      const FMG = `<a href="https://azgaar.github.io/Fantasy-Map-Generator" target="_blank">Azgaar's Fantasy Map Generator</a>`;
+      const FMG = `<a href="https://HittyGubby.github.io/Hearts-of-FMG-IV" target="_blank">Azgaar's Fantasy Map Generator</a>`;
       const license = `<a target="_blank" href="https://github.com/Azgaar/Armoria#license">the license</a>`;
       const html = /* html */ `<!DOCTYPE html>
         <html>

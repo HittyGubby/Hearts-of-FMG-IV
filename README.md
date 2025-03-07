@@ -4,7 +4,11 @@
 
 Link: [HittyGubby.github.io/Hearts-of-FMG-IV](https://HittyGubby.github.io/Hearts-of-FMG-IV).
 
+<<<<<<< HEAD
 For bug reports please use [GitHub issues](https://github.com/HittyGubby/Hearts-of-FMG-IV/issues). If you are facing performance issues, please read [the tips](https://github.com/HittyGubby/Hearts-of-FMG-IV/wiki/Tips#performance-tips).
+=======
+For bug reports please use [GitHub issues](https://github.com/HittyGubby/Hearts-of-FMG-IV/issues).
+>>>>>>> 86135c1 (chore: update repository references and maintainers to HittyGubby)
 
 Pull requests are highly welcomed! If you have any ideas, just lemme know!
 
